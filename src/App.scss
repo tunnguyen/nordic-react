@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: green !important;
+}
+
+h1.test {
+  color: blue;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.form-txt {
+  padding: 5px 10px;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+@import './scss/components/Header.scss';
+@import './scss/components/Product.scss';
+@import './scss/components/RecentProducts.scss';
+@import './scss/components/Pagination.scss';
+@import './scss/pages/HomePage.scss';
+@import './scss/pages/Giphy.scss';
