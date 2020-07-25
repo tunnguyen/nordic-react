@@ -5,7 +5,6 @@ import Hamburger from './Hamburger';
 
 const Header = (props) => {
   const [isNavHidden, setIsNavHidden] = useState(true);
-  console.log('header', props);
 
   return (
     <header className="main-header">
